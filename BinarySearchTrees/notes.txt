@@ -1,0 +1,19 @@
+What are Trees?
+    Trees are a nonlinear Data Structure.
+    They contain nodes and if a node is pointing to anothe node, the node that it is pointing to is called a child node and the node that is pointing at a child node is called a parent node
+What are Binary Trees?
+    Variation of Trees
+    Type of a tree that parent nodes can hold at most 2 nodes.
+What are Binary Search Trees?
+    Variation of a Binary Trees
+    All of the children to the left of the root/parent should be less than and all of the children to the right should be greater than the root/parent
+Time complexity of a BTS
+    Insertion is O(log n) in the average case
+    Searching is O(log n) in the average case
+    BFS is O(n) in the average case
+    DFS is O(n) in the average case
+Space complexity of a BTS
+    BFS is O(n) in all cases
+        Where n is the number of nodes(Each node is visited once)
+    DFS is O(n) in all cases
+        Where n is the number of nodes(Each node is visited once)
