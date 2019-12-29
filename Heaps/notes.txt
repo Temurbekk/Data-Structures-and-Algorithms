@@ -1,0 +1,24 @@
+What is a binary heap?
+    It should be compact(balanced)
+    There are two different types of binary heaps
+        MaxBinaryHeap - parent nodes are always larger than the child nodes
+        MinBinaryHeap - parent nodes are always smaller than the child nodes
+How to find the children of a nodes 
+    To find the left child, you need to use the formula 2n+1 where 'n' is the index the parent is located
+    To find the right child, you need to use the formula 2n+2 where 'n' is the index the parent is located
+How to find the parent of a nodes
+    To find the parent of a node, you need to use the formula(n-1)/2(take the floor) where 'n' is the location of the child node
+How to insert into a MaxBinaryHeap?
+    You add it to the end and bubble up by comparing its value to its parent
+Time complexity of a binary heap
+    It is O(log n) for both insertion and deletion
+    It is O(n) when searching for an element in a heap
+
+
+What is a priority queue?
+    Priority queue is a data structure where the node with the most priority gets called first.
+    If there is a choice between shifting a node with priority one or priority two, priority 1 will be called first considering we are working with a min heap
+Why use Heap to implement priority queue?
+    the min and max properties of a heap helps us extract the node with at most priority.
+Time complexity of Priority queue
+    It is O(log n) for both insertion and deletion. 
