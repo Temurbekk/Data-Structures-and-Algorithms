@@ -1,0 +1,34 @@
+What are graphs?
+    Graphs are a data structure that have edged connecting to one another using verteces.
+    Graphs can be directed or undirected.
+Directed Graphs
+    Directed graphs are usually represented using arrows.
+    In directed graphs, you can move from one node to another if the first node has an arrow pointing toward the second node
+Undirected Graphs
+    Undirected graphs are usually represented using line segments
+    In undirected Graphs, you can traverse from one node to another back and forth without any trouble
+
+Weighted Graphs
+    Weighted Graphs are graphs with 'weight' on their vertecies
+    This is used to find the shortest path or the time traveled from one edge to another
+
+Adjacency List
+    Takes less space
+    Faster to itterate over all edges 
+    Can be slower to lookup a specific edge
+Adjacency Matrix
+    Takes up more space
+    Slower to itterate over all edges
+    Faster to lookup a specific edge
+
+Time complexity depending if Adjacency List or Adjacency Matrix is used
+
+    Operation       Adjacency List  Adjacency Matrix
+    Add Vertex      O(1)            O(|V^2|)
+    Add Edge        O(1)            O(1)
+    Remove Vertex   O(|V| + |E|)    O(|V^2|)
+    Remove Edge     O(|E|)          O(1)
+    Lookup          O(|V| + |E|)    O(1)
+    Storage         O(|V| + |E|)    O(|V^2|) 
+
+
