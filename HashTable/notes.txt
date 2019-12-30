@@ -1,0 +1,18 @@
+What is a hash function?
+    It is a data structure that help inserting and retreiving in to take constant time.
+What makes a good hashing function?
+    Good hashing function eliminates as much colision as possible
+    It makes sense when you read it.
+What are collisions?
+    collisions happen when two elements produce same index after using the has function
+How to handle collisions?
+    There are two ways of handling collisions 
+        Separate Chaining - It store the element in the same index by storing the elements in a bigger array where bigger array holds the elements that were inserted in the current index
+            Downside - Working with too many arrays within array may be tricky
+        Linear Probing - It looks for the next available slot in the array to place the elements
+            Downside- you can hold at most the arra.length number of elements in your hash table
+
+Time Complexity of the HashTables
+    Insertion is O(1)
+    Deletion is O(1)
+    Accessing is O(1)
