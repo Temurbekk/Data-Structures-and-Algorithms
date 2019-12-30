@@ -38,3 +38,6 @@ How Breath First Search works?
     You use a queue
     You put all the children in a queue and traverse them in level order matter
 
+What is a Weighted Graph?
+    Weighted Graphs are graphs which numbers/'weight' on each vertices.
+    We use priority queue to find the smallest 'weight' to find the shortest path from one vertex to another
