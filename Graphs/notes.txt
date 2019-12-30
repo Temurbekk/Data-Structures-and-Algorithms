@@ -31,4 +31,10 @@ Time complexity depending if Adjacency List or Adjacency Matrix is used
     Lookup          O(|V| + |E|)    O(1)
     Storage         O(|V| + |E|)    O(|V^2|) 
 
+How Depth First Search works?
+    You use a stack
+    You traverse the graph by looking at all the children of one node first before traversing through the second node
+How Breath First Search works?
+    You use a queue
+    You put all the children in a queue and traverse them in level order matter
 

@@ -32,6 +32,61 @@ class Graph {
     }
     delete this.adjacencyList[vertex];
   }
+  DFSRecursive(vertex) {
+    let result = [];
+    let visited = {};
+    let adjacencyList = this.adjacencyList;
+
+    //immediately invoked helper function
+    (function _helper(vertex) {
+      if (!vertex) return null;
+      visited[vertex] = true;
+      result.push[vertex];
+      adjacencyList[vertex].forEach(neighbor => {
+        if (!visited[vertex]) {
+          _helper(neighbor);
+        }
+      });
+    })(vertex);
+    return result;
+  }
+  DFSIteratively(vertex) {
+    let stack = [vertex];
+    let result = [];
+    let visited = {};
+    let current;
+    visited[vertex] = true;
+    while (stack.length) {
+      current = stack.pop();
+      result.push(current);
+      this.adjacencyList[current].forEach(neighbor => {
+        if (!visited[neighbor]) {
+          visited[neighbor] = true;
+          stack.push(neighbor);
+        }
+      });
+    }
+    return result;
+  }
+
+  BFS(vertex) {
+    let queue = [vertex];
+    let result = [];
+    let visited = {};
+    let current;
+    visited[vertex] = true;
+    while (queue.length) {
+      current = queue.shift();
+      result.push(current);
+      this.adjacencyList[current].forEach(neighbor => {
+        if (!visited[neighbor]) {
+          visited[neighbor] = true;
+          queue.push[neighbor];
+        }
+      });
+    }
+    return result;
+  }
 }
 //Cities
 let graph = new Graph();
