@@ -9,5 +9,6 @@ What is Radix Sort?
 
     note:
         It sees which numbers have the most digits and assumes they are larger than the ones with fewer digits
-Time Complexity
+Time Complexity O(nk)
+Space Complexity O(n+k)
     
