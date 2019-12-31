@@ -1,0 +1,8 @@
+What is QuickSort?
+    Picks one pivot
+        places every element less than the pivot to the left side of the pivot
+        places every element greater than the pivot to the right side of the pivot
+Time Complexity 
+    Average: O(nlogn)
+    Worst: O(n^2)
+Space Complexity O(logn)

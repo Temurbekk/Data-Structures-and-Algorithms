@@ -33,4 +33,4 @@ let mergeSort = arr => {
   return merge(left, right);
 };
 
-merge([1, 2], [3, 4, 5, 6]);
+mergeSort([1, 2], [3, 4, 5, 6]);
