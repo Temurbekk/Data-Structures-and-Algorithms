@@ -1,0 +1,4 @@
+How Linear Search works?
+    Linear Search allows you to search through an array one by one starting from index 0 to arr.length-1
+Time Complexity is O(n)
+Space Complexity is O(1)
