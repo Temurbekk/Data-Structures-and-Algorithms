@@ -1,0 +1,13 @@
+What is Radix Sort?
+    Warning!!
+        This sort requires a lot of math!!
+    We never compare two numbers
+    It only works on numbers 
+    It looks at the last digit of a number and places it in a bucket of 0-9 and puts it back to the array
+    Then it looks at one digit to the left and places it in the bucket of 0-9 and puts it back to the array
+    It keep doing this operation until it compares all the digits in the largest number
+
+    note:
+        It sees which numbers have the most digits and assumes they are larger than the ones with fewer digits
+Time Complexity
+    
