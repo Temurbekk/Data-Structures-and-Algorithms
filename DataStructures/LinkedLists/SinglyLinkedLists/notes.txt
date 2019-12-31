@@ -1,0 +1,18 @@
+What is a linked list?
+    Linked List is a linear data structure that allows you to store data
+    Linked List is useful because as oppose to Arrays, it does not have a specific length and it allows users to add data or remove data without moving the whole structure
+    Although, it may be tricky at times to add or remove data from a linked list, it is more efficient
+What is a Singly Linked List?
+    Singly Linked List are lists that can point to the node next to them, they do not have a property to look at the node that is pointing at them
+    It doesn't have a potential to go back in a list
+
+Downsides of a Singly Linked List is that cannot point backward
+        
+
+Time Complexity
+    Insertion O(1)
+    Deletion  O(1) or O(n)
+    Lookup    O(n)
+    Search    O(n )
+
+Space Complecity O(n)
