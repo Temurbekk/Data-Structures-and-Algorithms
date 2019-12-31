@@ -1,0 +1,7 @@
+What is Insertion Sort?
+    As it traverses through an array, it picks one element and decided where it should insert it depending on what should come before and what should come after
+    We use 2 for loops to itterate through an array.
+        One loop goes from start to finish while the other loops works backwards 
+    
+Time Complexity is O(n^2)
+Space Complexity is O(1)
