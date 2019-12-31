@@ -1,0 +1,8 @@
+What is a Binary Search?(array has to be sorted for this to work)
+    Binary Search takes an input array and checks if the middle element is less than or greater than the target
+    We mainly work with 3 variables: 
+        start - where the array starts(index 0)
+        end - where the array ends(index arr.length-1)
+        middle - (start+end)/2
+    If the target is less than the middle, it will assign the end variable to be middle and perform the same operation
+    If the target is greater than the middle, it will assign the start variable to be the middle and perform the same operation
