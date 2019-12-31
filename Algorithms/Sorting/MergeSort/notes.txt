@@ -1,0 +1,7 @@
+What is MergeSort?
+    Divide and conquer method for sorting elements in an array.
+    Array is divided in half until the array is in sorted position(one element is left)
+    Then it is merged back together as elements get sorted
+
+Time Complexity(nlogn)
+Space Complexity(n)
