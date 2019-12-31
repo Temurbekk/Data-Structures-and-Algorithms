@@ -1,0 +1,6 @@
+What is Selection Sort?
+    It works similar to bubble sort but it sorts the smaller numbers first
+    It goes through an array and find the minimum value. Then it spaces it at the appropriate index.
+
+Time Complexity is O(n^2)
+Space Complexity is O(1)
