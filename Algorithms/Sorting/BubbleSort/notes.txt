@@ -1,0 +1,8 @@
+What is BubbleSort?
+    A sorting algorithm that allows users to sort given data by placing the largest elements at the correct spot on each itteration
+    It looks at every pair or elements next to each other and compares them until the data is sorted
+    It uses two for loops to be executed
+Why use BubbleSort?
+    When data is small or is nearly sorted
+Time Complexity is O(n^2)
+Space Complexity is O(1)
