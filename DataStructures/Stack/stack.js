@@ -43,6 +43,10 @@ class Stack {
   peak() {
     return this.top;
   }
+  isEmpty() {
+    if (!this.size || this.size === 0) return true;
+    return false;
+  }
 }
 
 let stack = new Stack();
