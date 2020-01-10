@@ -11,7 +11,7 @@ Downsides of a Singly Linked List is that cannot point backward
 
 Time Complexity
     Insertion O(1)
-    Deletion  O(1) or O(n)
+    Deletion  O(1) or O(n) if you are deleting from the end
     Lookup    O(n)
     Search    O(n )
 

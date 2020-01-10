@@ -4,6 +4,6 @@ Naive String Search
 Example:
     We want to find how many times does a work 'omg' occur in 'omg this is so awesme omg i love programming omg'
     We find out that the specific combination of characters occur 3 times.
-    
+     
 Time Complexity O(n^2)
 Space Complexity O(1)

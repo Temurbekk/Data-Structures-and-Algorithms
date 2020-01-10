@@ -67,4 +67,4 @@ class HashTable {
 
 let hashTable = new HashTable();
 
-hashTable.set('Hashing', 'Unhashing');
+hashTable.set('Hashing', 'Unhashing');  

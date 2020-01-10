@@ -1,0 +1,19 @@
+What is a linked list?
+    Linked List is a linear data structure that allows you to store data
+    Linked List is useful because as oppose to Arrays, it does not have a specific length and it allows users to add data or remove data without moving the whole structure
+
+What is Doubly Linked List?
+    It is a variation of a LinkedList where a node can point to the node that is sitting in front of it as well as the node that is sitting behind it
+    In short, it points in both directions.
+    It has the ability to go backwards
+
+Disadvantage of a Doubly Linked List
+    It takes up a lot of memory
+
+Time Complexity
+    Insertion O(1)
+    Deletion  O(1) or O(n)
+    Lookup    O(n)
+    Search    O(n) Technically O(n/2)
+
+Space Complecity O(n)
