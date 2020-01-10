@@ -1,0 +1,23 @@
+What are stacks?
+    Stacks are a linear data structure that follows the rules of LIFO(Last In First Out)
+        Where the last inserted item gets removed first.
+    The stacks can be visalised as a stack of books, where the last book you places will be removed first.
+
+How to use stacks?
+    Since arrays in Javascript have methods push(), pop() you can treat the JS arrays as stack
+    You can also create your own Stack class using Linked Lists but why do that when you can use an arrays
+
+Why use stacks?
+    Stacks are used in many different applications and some of the examples are:
+        To find if a string is a paindrome
+        A typical method for matching parenthesis problem
+        And much more that involve the ruled of LIFO
+
+Complexities:
+    Time Complexity: 
+        Adding: O(1)
+        Removing: O(1)
+        Searching: O(n)
+        Accessing: O(n)
+        
+    Space Complexity: O(n) where n is the number of elements stored in a stack
